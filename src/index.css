@@ -170,7 +170,12 @@ code {
   align-items: center;
   outline: none;
 }
-
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+}
 .select {
   display: flex;
   justify-content: center;
